@@ -51,4 +51,7 @@ CREATE TABLE Usuario (
   INDEX Usuario_FKIndex1(Persona_idPersona)
 );
 
-
+INSERT INTO persona VALUES('','Victor','Alfosno','Rodriguez','Perez','victor@outlook.com');
+INSERT INTO USUARIO VALUES('',1,'vic123','12345');
+INSERT INTO PERSONA VALUES('','JULIAN','PEREZ','CASTANO','RAMOS','JULIAN@OUTLOOK.COM')
+INSERT INTO USUARIO VALUES('',2,'julian123',md5('12345'));
