@@ -3,7 +3,7 @@
 // require_once('core/core.php');
 
 
- $c=isset($_REQUEST['c']) ? $_REQUEST['c'] : 'Index';
+ $c=isset($_REQUEST['c']) ? $_REQUEST['c'] : 'Login';
 
 
  $m=isset($_REQUEST['m']) ? ($_REQUEST['m']) : 'index';
