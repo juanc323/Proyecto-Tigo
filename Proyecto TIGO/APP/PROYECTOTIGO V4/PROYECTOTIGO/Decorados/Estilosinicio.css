@@ -1,0 +1,144 @@
+#titleinic{
+position: relative;
+left: 580px;
+top: 200px;
+color: white;
+font-family:Helvetica, sans-serif ,Arial;
+
+}
+body{
+    background-image: url('Imagenes/Fondo2.jpg');
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+}
+.container{
+position: relative;
+width: 100%;
+display:block;
+
+}
+.row{
+width: 100%;
+display:block;
+
+}
+.form-label-group.col-sm-6{
+width: 100%;
+display:block;
+
+}
+h1{
+position: relative;
+color:white;
+left: 825px;
+top: 100px;
+font-size: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2{
+position: relative;
+color: white;
+left: 0px;
+top: 50px;
+}
+
+#place1{
+position: absolute;
+width: 100%;
+left: 680px;
+top: 350px;
+display: inline-block;
+text-align: center;
+display: block;
+transform: translate(0, -50%);
+}
+
+#place2{
+position: absolute;
+width: 100%;
+left: 225px;
+top: 450px;
+display: inline-block;
+text-align: center;
+display: block;
+transform: translate(0, -50%);
+
+}
+
+#botonini{
+background-color: white;
+color: #4580FA;
+
+border-radius: 10px;
+border-color: white;
+position: absolute;
+bottom: 250px;
+left: 850px;
+display: inline-block;
+text-align: center;
+display: block;
+transform: translate(0, -50%);
+}
+
+#modulos{
+width: 100%;
+
+
+}
+.escrib{
+position: relative;    
+width: 100%;
+border: orange 10px solid;
+left: 500px;
+border-radius: 20px;
+top: 250px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#back{
+color: white;
+position: relative;
+text-align: center;
+width: 200px;
+height: 30px;
+bottom: 50px;
+right: 10px;
+margin-left: auto;
+margin-right: auto;
+background-color: orange;
+border-color: orange;
+border-radius: 30px;
+}
+
+
+#btnmenu1{
+position: relative;
+top: 250px;
+left: 500px;
+width: 400px;
+}
+
+#btnmenu2{
+position: relative;
+top: 212px;
+left: 950px;
+width: 400px;    
+}
+
+#backcer{
+position: relative;
+top: 350px;
+left: 450px;
+}
+
+#subtittle{
+position: relative;
+color: white;
+left: 775px;
+top: 150px;
+
+}
