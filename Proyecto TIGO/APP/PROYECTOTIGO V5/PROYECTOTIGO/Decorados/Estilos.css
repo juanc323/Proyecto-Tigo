@@ -1,0 +1,145 @@
+body{
+background-image: url('Imagenes/Fondo2.jpg');
+}
+
+#tituloedit{
+position: relative;
+color: white;
+text-align: center;
+ margin-top: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 45px;
+}
+
+h2{
+ text-align: center;
+ margin-top: 50px;
+}
+
+#butonconf{
+position: absolute;
+top: 220px;
+right: 890px;
+}
+
+#nom{
+position: absolute;
+top: 280px;
+left: 850px;
+text-align: center;
+}
+
+#tip{
+position: absolute;
+top: 380px;
+left: 850px;
+text-align: center;
+}
+
+#cuadro{
+position: absolute;
+top: 480px;
+left: 750px;
+text-align: center;
+}
+
+#asgn{
+position: absolute;
+top: 620px;
+left: 850px;
+text-align: center;
+}
+
+#estdo{
+position: absolute;
+top: 450px;
+left: 630px;
+text-align: center;
+}
+
+#editboton{
+position: absolute;
+right: 900px;
+top: 800px;
+}
+
+#btn2{
+position: absolute;  
+top: 900px;
+left: 890px;
+
+}
+
+
+
+button{
+ text-align: center;
+ margin-top: 200px;
+ margin-left: 800px;
+}
+
+.caja{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    margin-left: 500px;
+    position: relative;
+    right: -350px;
+
+ }
+
+ .container {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .form-label-group > input, .form-label-group > label {
+    padding: 0.4rem;
+  }
+  .form-label-group > label {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    pointer-events: none;
+    cursor: text;
+    /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.1s ease-in-out;
+    padding-left: 1.4rem;
+  }
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+  }
+  .form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 10px;
+  }
+ 
+  
+  /* Fallback for Edge
+   -------------------------------------------------- */
+  @supports (-ms-ime-align: auto) {
+    .form-label-group > label {
+      display: none;
+    }
+  }
+  /* Fallback for IE
+   -------------------------------------------------- */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .form-label-group > label {
+      display: none;
+    }
+  }
